@@ -1,0 +1,511 @@
+/* Portfolio page styles */
+.portfolio-page {
+  margin-top: 70px;
+}
+
+.page-hero {
+  background: #000;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.portfolio-overview {
+  padding: 80px 0;
+  border-bottom: 1px solid #000;
+}
+
+.portfolio-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.stat-card {
+  background: white;
+  border: 1px solid #000;
+  padding: 30px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 10px;
+  text-transform: lowercase;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #000;
+  margin: 10px 0;
+}
+
+.stat-change {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 0;
+}
+
+.stat-change.positive {
+  color: #000;
+  background: #f0f0f0;
+}
+
+.stat-change.negative {
+  color: #000;
+  background: #e0e0e0;
+}
+
+.stat-change.neutral {
+  color: #666;
+}
+
+.portfolio-features {
+  padding: 80px 0;
+  background: white;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.feature-item {
+  padding: 30px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.feature-item .feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.feature-item p {
+  color: #666;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.portfolio-tools {
+  padding: 80px 0;
+  background: #000;
+  color: white;
+}
+
+.portfolio-tools .section-title {
+  color: white;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.tool-card {
+  background: #000;
+  border: 1px solid white;
+  padding: 40px;
+}
+
+.tool-card h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.tool-card p {
+  color: #ccc;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+/* Asset Allocation Preview */
+.allocation-preview {
+  margin-top: 20px;
+}
+
+.allocation-bar {
+  height: 20px;
+  display: flex;
+  border: 1px solid white;
+}
+
+.allocation-segment {
+  height: 100%;
+}
+
+.allocation-segment.stocks { background: #666; }
+.allocation-segment.bonds { background: #888; }
+.allocation-segment.reits { background: #aaa; }
+.allocation-segment.crypto { background: #ccc; }
+.allocation-segment.cash { background: #eee; }
+
+.allocation-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.allocation-legend span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #ccc;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+.legend-color.stocks { background: #666; }
+.legend-color.bonds { background: #888; }
+.legend-color.reits { background: #aaa; }
+.legend-color.crypto { background: #ccc; }
+.legend-color.cash { background: #eee; }
+
+/* Risk Analysis */
+.risk-meter {
+  margin-top: 20px;
+}
+
+.risk-scale {
+  height: 20px;
+  background: linear-gradient(to right, #666, #888, #aaa, #ccc, #eee);
+  position: relative;
+  border: 1px solid white;
+}
+
+.risk-indicator {
+  position: absolute;
+  top: -5px;
+  width: 4px;
+  height: 30px;
+  background: white;
+  transform: translateX(-50%);
+}
+
+.risk-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.portfolio-cta {
+  padding: 80px 0;
+  text-align: center;
+  background: white;
+  border-top: 1px solid #000;
+}
+
+.portfolio-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.portfolio-cta p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: lowercase;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Buttons */
+.btn {
+  padding: 15px 30px;
+  border: 1px solid #000;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: lowercase;
+  background: none;
+}
+
+.btn-primary {
+  background: #000;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: white;
+  color: #000;
+}
+
+.btn-large {
+  padding: 20px 40px;
+  font-size: 18px;
+}
+
+/* Recent Transactions */
+.recent-transactions {
+  padding: 80px 0;
+  background: #f9f9f9;
+}
+
+.transaction-list {
+  margin-top: 40px;
+  background: white;
+  border: 1px solid #000;
+}
+
+.transaction-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.transaction-item:last-child {
+  border-bottom: none;
+}
+
+.transaction-info strong {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.transaction-info span {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 300;
+}
+
+.transaction-amount {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: right;
+}
+
+.transaction-amount.buy {
+  color: #000;
+}
+
+.transaction-amount.sell {
+  color: #666;
+}
+
+.transaction-date {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: right;
+  font-weight: 300;
+}
+
+/* Watchlist */
+.watchlist {
+  padding: 80px 0;
+  background: white;
+}
+
+.watchlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.watchlist-item {
+  background: white;
+  border: 1px solid #000;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  gap: 5px 15px;
+}
+
+.stock-symbol {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stock-name {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 300;
+}
+
+.stock-price {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #000;
+  text-align: right;
+}
+
+.stock-change {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: right;
+}
+
+.stock-change.positive {
+  color: #000;
+}
+
+.stock-change.negative {
+  color: #666;
+}
+
+/* Loading and Error States */
+.loading-container,
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #f0f0f0;
+  border-top: 3px solid #000;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-container p,
+.error-container p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.error-container h2 {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.no-data {
+  padding: 40px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.no-data p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+  
+  .portfolio-stats {
+    grid-template-columns: 1fr;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tools-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .allocation-legend {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .transaction-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: left;
+  }
+  
+  .transaction-amount,
+  .transaction-date {
+    text-align: left;
+  }
+  
+  .watchlist-grid {
+    grid-template-columns: 1fr;
+  }
+}

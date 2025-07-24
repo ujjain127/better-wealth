@@ -1,0 +1,447 @@
+/* Investors page styles */
+.investors-page {
+  margin-top: 70px;
+}
+
+.page-hero {
+  background: #000;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.how-matching-works {
+  padding: 80px 0;
+  background: white;
+}
+
+.matching-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.matching-step {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.step-number {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: #000;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.matching-step h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #000;
+  text-transform: lowercase;
+}
+
+.matching-step p {
+  color: #666;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.featured-investors {
+  padding: 80px 0;
+  background: #000;
+  color: white;
+}
+
+.featured-investors .section-title {
+  color: white;
+}
+
+.investors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.investor-card {
+  background: #000;
+  border: 1px solid white;
+  padding: 30px;
+}
+
+.investor-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.investor-avatar {
+  width: 60px;
+  height: 60px;
+  background: white;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.investor-info h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.expertise {
+  color: #ccc;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.investor-meta {
+  display: flex;
+  gap: 15px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.investor-stats {
+  margin-bottom: 25px;
+  padding: 15px 0;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat-label {
+  color: #ccc;
+  font-weight: 300;
+}
+
+.stat-value {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.stat-value.positive {
+  color: #fff;
+}
+
+.investor-specialties {
+  margin-bottom: 25px;
+}
+
+.investor-specialties h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: lowercase;
+}
+
+.specialty-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.specialty-tag {
+  padding: 4px 12px;
+  background: transparent;
+  border: 1px solid #666;
+  color: #ccc;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.consultation-types {
+  padding: 80px 0;
+  background: white;
+}
+
+.consultation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.consultation-card {
+  border: 1px solid #000;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.consultation-card.featured {
+  background: #f9f9f9;
+}
+
+.consultation-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.consultation-card h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.consultation-card p {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.consultation-price {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.consultation-card ul {
+  list-style: none;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.consultation-card li {
+  color: #666;
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+.consultation-card li:before {
+  content: "—";
+  color: #000;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+}
+
+.popular-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #000;
+  color: white;
+  padding: 5px 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.community-forum {
+  padding: 80px 0;
+  background: #000;
+  color: white;
+}
+
+.community-forum .section-title {
+  color: white;
+}
+
+.forum-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin: 40px 0;
+  align-items: center;
+}
+
+.forum-content h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.forum-content p {
+  color: #ccc;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.forum-content ul {
+  list-style: none;
+}
+
+.forum-content li {
+  color: #ccc;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+.forum-content li:before {
+  content: "—";
+  color: white;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+}
+
+.forum-stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.forum-stat {
+  text-align: center;
+  padding: 30px;
+  border: 1px solid white;
+}
+
+.stat-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  color: #ccc;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.investors-cta {
+  padding: 80px 0;
+  text-align: center;
+  background: white;
+  border-top: 1px solid #000;
+}
+
+.investors-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.investors-cta p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: lowercase;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Buttons */
+.btn {
+  padding: 15px 30px;
+  border: 1px solid #000;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: lowercase;
+  background: none;
+  width: 100%;
+}
+
+.btn-primary {
+  background: #000;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: white;
+  color: #000;
+}
+
+.btn-large {
+  padding: 20px 40px;
+  font-size: 18px;
+  width: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+  
+  .matching-steps {
+    grid-template-columns: 1fr;
+  }
+  
+  .investors-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .consultation-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .forum-preview {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .investor-header {
+    flex-direction: column;
+    text-align: center;
+  }
+}

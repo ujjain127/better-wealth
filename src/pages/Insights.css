@@ -1,0 +1,509 @@
+/* Insights page styles */
+.insights-page {
+  margin-top: 70px;
+}
+
+.page-hero {
+  background: #000;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.performance-dashboard {
+  padding: 80px 0;
+  background: white;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.metric-card {
+  border: 1px solid #000;
+  padding: 30px;
+  text-align: center;
+}
+
+.metric-card h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.metric-value {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.metric-period {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.metric-comparison {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 0.85rem;
+}
+
+.metric-comparison span:first-child {
+  color: #666;
+  font-weight: 300;
+}
+
+.outperforming {
+  color: #000;
+  font-weight: 500;
+}
+
+.performing-well {
+  color: #666;
+  font-weight: 400;
+}
+
+.market-analysis {
+  padding: 80px 0;
+  background: #000;
+  color: white;
+}
+
+.market-analysis .section-title {
+  color: white;
+}
+
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.analysis-card {
+  border: 1px solid white;
+  padding: 40px;
+}
+
+.analysis-card h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 25px;
+  text-transform: lowercase;
+}
+
+.sector-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sector-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  align-items: center;
+  gap: 15px;
+  font-size: 0.9rem;
+}
+
+.sector-item span:first-child {
+  color: #ccc;
+  font-weight: 300;
+}
+
+.sector-item span:last-child {
+  color: #ccc;
+  font-weight: 300;
+  text-align: right;
+}
+
+.performance-bar {
+  height: 15px;
+  background: #333;
+  position: relative;
+}
+
+.performance-bar.positive {
+  background: linear-gradient(to right, #333, #666);
+}
+
+.performance-bar.negative {
+  background: linear-gradient(to right, #333, #555);
+}
+
+.efficiency-metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.efficiency-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 0.9rem;
+}
+
+.efficiency-item span:first-child {
+  color: #ccc;
+  font-weight: 300;
+  flex: 1;
+}
+
+.efficiency-item span:last-child {
+  color: #ccc;
+  font-weight: 300;
+  min-width: 50px;
+}
+
+.score-bar {
+  flex: 2;
+  height: 15px;
+  background: #333;
+  border: 1px solid white;
+}
+
+.score-fill {
+  height: 100%;
+  background: white;
+}
+
+.ai-insights {
+  padding: 80px 0;
+  background: white;
+}
+
+.insights-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.insight-item {
+  border: 1px solid #000;
+  padding: 30px;
+}
+
+.insight-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.insight-type {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.priority-badge {
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.priority-badge.high {
+  background: #000;
+  color: white;
+}
+
+.priority-badge.medium {
+  background: #666;
+  color: white;
+}
+
+.priority-badge.low {
+  background: #ccc;
+  color: #000;
+}
+
+.insight-item h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 10px;
+  text-transform: lowercase;
+}
+
+.insight-item p {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.insight-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.research-reports {
+  padding: 80px 0;
+  background: #000;
+  color: white;
+}
+
+.research-reports .section-title {
+  color: white;
+}
+
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.report-card {
+  border: 1px solid white;
+  padding: 30px;
+}
+
+.report-card h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.report-card p {
+  color: #ccc;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.report-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.analytics-tools {
+  padding: 80px 0;
+  background: white;
+}
+
+.tools-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.tool-preview {
+  border: 1px solid #000;
+  padding: 40px;
+}
+
+.tool-preview h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.tool-preview p {
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.simulation-result {
+  text-align: center;
+}
+
+.simulation-result span:first-child {
+  display: block;
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.result-range {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.result-range span:first-child {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.result-range span:last-child {
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.risk-factors {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.factor-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.factor-item span:first-child {
+  color: #666;
+  font-weight: 300;
+}
+
+.factor-item span:last-child {
+  color: #000;
+  font-weight: 500;
+}
+
+.insights-cta {
+  padding: 80px 0;
+  text-align: center;
+  background: white;
+  border-top: 1px solid #000;
+}
+
+.insights-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.insights-cta p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: lowercase;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Buttons */
+.btn {
+  padding: 15px 30px;
+  border: 1px solid #000;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: lowercase;
+  background: none;
+}
+
+.btn-primary {
+  background: #000;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: white;
+  color: #000;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: #000;
+}
+
+.btn-large {
+  padding: 20px 40px;
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+  
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .analysis-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .reports-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tools-showcase {
+    grid-template-columns: 1fr;
+  }
+  
+  .insight-actions {
+    flex-direction: column;
+  }
+  
+  .sector-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}

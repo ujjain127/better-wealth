@@ -1,0 +1,490 @@
+/* Planning page styles */
+.planning-page {
+  margin-top: 70px;
+}
+
+.page-hero {
+  background: #000;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.financial-goals {
+  padding: 80px 0;
+  background: white;
+}
+
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.goal-card {
+  border: 1px solid #000;
+  padding: 30px;
+}
+
+.goal-card h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.goal-progress {
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background: #f0f0f0;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #000;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 300;
+}
+
+.goal-deadline {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 300;
+}
+
+.planning-tools {
+  padding: 80px 0;
+  background: #000;
+  color: white;
+}
+
+.planning-tools .section-title {
+  color: white;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.tool-card {
+  border: 1px solid white;
+  padding: 40px;
+}
+
+.tool-icon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.tool-card h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.tool-card p {
+  color: #ccc;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.tool-card ul {
+  list-style: none;
+}
+
+.tool-card li {
+  color: #ccc;
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+.tool-card li:before {
+  content: "—";
+  color: white;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+}
+
+.budget-overview {
+  padding: 80px 0;
+  background: white;
+}
+
+.budget-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.budget-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.budget-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.budget-label {
+  font-weight: 300;
+  color: #666;
+}
+
+.budget-value {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.budget-value.income {
+  color: #000;
+}
+
+.budget-value.expense {
+  color: #666;
+}
+
+.budget-value.savings {
+  color: #000;
+}
+
+.budget-breakdown h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 25px;
+  text-transform: lowercase;
+}
+
+.expense-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.expense-item span:first-child {
+  font-weight: 300;
+  color: #666;
+}
+
+.expense-item span:last-child {
+  font-weight: 300;
+  color: #666;
+  text-align: right;
+}
+
+.expense-bar {
+  height: 15px;
+  background: #f0f0f0;
+  border: 1px solid #000;
+}
+
+.expense-fill {
+  height: 100%;
+  background: #000;
+}
+
+.financial-insights {
+  padding: 80px 0;
+  background: #000;
+  color: white;
+}
+
+.financial-insights .section-title {
+  color: white;
+}
+
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.insight-card {
+  border: 1px solid white;
+  padding: 30px;
+}
+
+.insight-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.insight-card h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.insight-card p {
+  color: #ccc;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.planning-features {
+  padding: 80px 0;
+  background: white;
+}
+
+.features-list {
+  margin-top: 40px;
+}
+
+.feature-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 40px 0;
+  border-bottom: 1px solid #000;
+}
+
+.feature-row:last-child {
+  border-bottom: none;
+}
+
+.feature-info h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.feature-info p {
+  color: #666;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.feature-preview {
+  text-align: center;
+}
+
+.calculator-preview {
+  border: 1px solid #000;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.calculator-preview span:first-child {
+  color: #666;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.projection-value {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.projection-date {
+  color: #666;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.tax-savings {
+  border: 1px solid #000;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tax-savings span:first-child {
+  color: #666;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.savings-value {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.scenario-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.scenario-options span {
+  padding: 15px;
+  border: 1px solid #000;
+  color: #666;
+  font-weight: 300;
+}
+
+.planning-cta {
+  padding: 80px 0;
+  text-align: center;
+  background: white;
+  border-top: 1px solid #000;
+}
+
+.planning-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.planning-cta p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: lowercase;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Buttons */
+.btn {
+  padding: 15px 30px;
+  border: 1px solid #000;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: lowercase;
+  background: none;
+}
+
+.btn-primary {
+  background: #000;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: white;
+  color: #000;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: #000;
+}
+
+.btn-large {
+  padding: 20px 40px;
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+  
+  .goals-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tools-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .budget-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .insights-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .feature-row {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .expense-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .expense-item span:last-child {
+    text-align: left;
+  }
+}

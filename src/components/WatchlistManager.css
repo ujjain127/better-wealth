@@ -1,0 +1,201 @@
+/* Watchlist Manager Styles */
+.watchlist-manager {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.watchlist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 20px;
+}
+
+.watchlist-header h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+.add-symbol-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.symbol-input {
+  padding: 8px 12px;
+  border: 1px solid #000;
+  border-radius: 0;
+  font-size: 14px;
+  width: 150px;
+  text-transform: uppercase;
+}
+
+.symbol-input:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: inset 0 0 0 1px #000;
+}
+
+.symbol-input:disabled {
+  background: #f5f5f5;
+  color: #999;
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.error-message {
+  background: #fdf0f0;
+  color: #a52a2a;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #f5c6cb;
+  font-size: 14px;
+}
+
+.watchlist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.watchlist-item-manager {
+  display: grid;
+  grid-template-columns: 2fr 1fr auto;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s ease;
+}
+
+.watchlist-item-manager:hover {
+  background: #f9f9f9;
+}
+
+.stock-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.stock-info .stock-symbol {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stock-info .stock-name {
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 300;
+}
+
+.stock-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+.stock-data .stock-price {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.stock-data .stock-change {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.stock-data .stock-change.positive {
+  color: #000;
+}
+
+.stock-data .stock-change.negative {
+  color: #666;
+}
+
+.remove-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #666;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-btn:hover {
+  background: #f0f0f0;
+  border-color: #999;
+  color: #333;
+}
+
+.remove-btn:active {
+  background: #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .watchlist-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+  
+  .add-symbol-form {
+    justify-content: stretch;
+  }
+  
+  .symbol-input {
+    flex: 1;
+    width: auto;
+  }
+  
+  .watchlist-item-manager {
+    grid-template-columns: 1fr auto;
+    gap: 15px;
+  }
+  
+  .stock-data {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .watchlist-manager {
+    padding: 20px;
+  }
+  
+  .watchlist-item-manager {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  .stock-data {
+    align-items: center;
+  }
+  
+  .remove-btn {
+    justify-self: center;
+  }
+}

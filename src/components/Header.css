@@ -1,0 +1,55 @@
+/* Header styles extracted from main App.css */
+.navigation {
+  background: #fff;
+  border-bottom: 1px solid #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  text-transform: lowercase;
+}
+
+.nav-menu a:hover {
+  color: #666;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+}
