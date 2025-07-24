@@ -276,7 +276,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- Design inspiration from [shallz.com](https://shallz.com)
 - React.js community for excellent documentation
 - Financial data providers for market insights
 - Open source community for the amazing tools and libraries
